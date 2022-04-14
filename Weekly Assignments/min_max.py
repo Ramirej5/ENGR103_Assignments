@@ -2,8 +2,8 @@
 # Class: ENGR 103
 # Assignment: 3.a - min-max
 
-
-num_of_int = int(input("How many integers would you like to enter? "))
+print("How many integers would you like to enter? ")
+num_of_int = int(input())
 
 print("Please enter ", num_of_int, " integers.")
 
