@@ -5,7 +5,7 @@
 print("How many integers would you like to enter? ")
 num_of_int = int(input())
 
-print("Please enter ", num_of_int, " integers.")
+print("Please enter", num_of_int, "integers.")
 
 min_num = int(input())
 max_num = min_num
