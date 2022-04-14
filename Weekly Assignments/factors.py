@@ -10,10 +10,10 @@ print("Please enter a positive integer: ")
 
 number_entered = int(input())
 
-print("The factors of",number_entered,"are:")
+print("The factors of", number_entered, "are:")
 
-for n in range(1,number_entered):
-    if number_entered%n==0:
+for n in range(1, number_entered):
+    if number_entered % n == 0:
         print(n)
 
 print(number_entered)
