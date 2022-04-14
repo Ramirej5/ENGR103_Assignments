@@ -11,11 +11,11 @@ min_num = int(input())
 max_num = min_num
 
 for z in range(1, num_of_int):
-    num = int(input())
-    if num > max_num:
-        max_num = num
-    if num < min_num:
-        min_num = num
+    num_input = int(input())
+    if num_input > max_num:
+        max_num = num_input
+    if num_input < min_num:
+        min_num = num_input
 
 
 print("Min: "+str(min_num))
